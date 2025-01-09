@@ -1,0 +1,56 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto", sans-serif;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1c1c1c;
+   color: white;
+   height: 100vh;
+}
+
+.container {
+   background-color: white;
+   padding: 2em;
+   height: 70vh;
+   width: 600px;
+}
+
+.color-picker {
+   display: flex;
+   justify-content: center;
+   gap: 1em;
+}
+
+input#color {
+   border: none;
+   width: 50px;
+   height: 40px;
+}
+
+#color-scheme,
+#get-color-btn {
+   padding: 0.75em;
+   background-color: transparent;
+   border: 1px solid #d1d5db;
+   border-radius: 6px;
+}
+
+.display-color {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* background-color: black; */
+   height: 60vh;
+   color: black;
+   margin-top: 1em;
+   text-align: center;
+}
+
+.color-block {
+   height: 100%;
+}
